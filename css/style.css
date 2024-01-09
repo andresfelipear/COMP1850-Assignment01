@@ -1,7 +1,58 @@
+body
+{
+    background-color: #86888A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 main
 {
+    background-color: white;
     margin: 40px 20px;
-    padding: 4px 8px;
-    border: 2px solid black;
+    padding: 0px 0px 16px 0px;
+    border-radius: 3%;
+    width: fit-content;
+}
 
+.img-background
+{
+    border-start-start-radius: 3%;
+    border-start-end-radius: 3%;
+    height: 180px;
+    background: url("../images/img1.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+img
+{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+
+}
+
+.content
+{
+    padding: 0 26px;
+    margin-top: 60px;
+
+}
+
+.main-content
+{
+    margin-bottom: 30px;
+}
+
+
+h1
+{
+    margin-block: 0px;
+}
+
+p
+{
+    margin-block: 12px;
 }
